@@ -13,9 +13,9 @@ document.getElementById("login-button").addEventListener("click", function() {
 });
 
 document.getElementById("register-button").addEventListener("click", function() {
-  alert("Button clicked!");
+  checkForm();
 });
 
 document.getElementById("forgot-password-button").addEventListener("click", function() {
-  alert("Button clicked!");
+  checkForm();
 });
