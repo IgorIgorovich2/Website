@@ -1,0 +1,73 @@
+.container {
+  background:url(jay-mantri-TFyi0QOx08c-unsplash.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: rgba(225, 225, 225, 0.598);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+  font-family: 'PT Mono', monospace;
+}
+
+.input-wrapper label {
+  display: block;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remember-me label {
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#register-button,
+#login-button,
+#forgot-password-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a3b18a;
+  color: white;
+  cursor: pointer;
+  font-family: 'PT Mono', monospace;
+}
+
+body{
+    font-family: 'PT Mono', monospace;
+    overflow: hidden;
+}
+
+::placeholder{
+    font-family: 'PT Mono', monospace;
+}
